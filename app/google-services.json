@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "989441112813",
+    "project_id": "ashtachamma-98f0d",
+    "storage_bucket": "ashtachamma-98f0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989441112813:android:8be4670d832a4834f92ae4",
+        "android_client_info": {
+          "package_name": "com.deepesh.ashtaChamma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4IVQ6MNXo4tpuVRflydmiujUXoXu6hxM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

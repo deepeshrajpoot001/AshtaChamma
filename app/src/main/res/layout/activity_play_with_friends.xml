@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PlayWithFriends">
+
+    <LinearLayout android:orientation="vertical" android:layout_width="407dp" android:layout_height="505dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="horizontal" android:background="@color/colorPrimary" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="60dp">
+            <TextView android:textSize="30sp" android:textStyle="bold" android:textColor="#000000" android:layout_width="0dp" android:layout_height="wrap_content" android:text="SELECT COLOR" android:layout_weight="1" android:textAlignment="center"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@color/colorPrimary" android:padding="5dp" android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginStart="50dp" android:layout_marginEnd="50dp">
+            <ImageView android:id="@+id/choosegoti1" android:tag="1" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="selectcolor" app:srcCompat="@drawable/player1goti"/>
+            <ImageView android:id="@+id/choosegoti2" android:tag="2" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="selectcolor" app:srcCompat="@drawable/player2goti"/>
+            <ImageView android:id="@+id/choosegoti3" android:tag="3" android:background="@drawable/background4" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="selectcolor" app:srcCompat="@drawable/player3goti"/>
+            <ImageView android:id="@+id/choosegoti4" android:tag="4" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="selectcolor" app:srcCompat="@drawable/player4goti"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="70dp">
+            <ImageView android:id="@+id/create" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" app:srcCompat="@drawable/create"/>
+            <ImageView android:id="@+id/join" android:background="@drawable/background5" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" app:srcCompat="@drawable/join"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/frameLayout2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <ImageButton android:id="@+id/userAccount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:minHeight="48dp" android:layout_marginEnd="36dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_baseline_person_24"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

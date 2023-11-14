@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AshtaChamma</string>
+    <string name="CheethaGame">Cheetha The Special Game</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="player_4">player 4</string>
+    <string name="player_3">player 3</string>
+    <string name="player_2">player 2</string>
+    <string name="player_1">player 1</string><![CDATA[
+    />
+]]>
+</resources>
